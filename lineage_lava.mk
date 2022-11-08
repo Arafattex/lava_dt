@@ -24,6 +24,10 @@ $(call inherit-product, device/xiaomi/lava/device.mk)
 # Inherit Viper4FX 
 $(call inherit-product, packages/apps/Viper4FX/config.mk)
 
+# Inherit AnxCam 
+$(call inherit-product, vendor/ANXCamera/config.mk)
+
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
