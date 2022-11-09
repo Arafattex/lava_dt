@@ -27,6 +27,8 @@ $(call inherit-product, packages/apps/Viper4FX/config.mk)
 # Inherit AnxCam 
 $(call inherit-product, vendor/ANXCamera/config.mk)
 
+#Gapps
+WITH_GMS=true
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
