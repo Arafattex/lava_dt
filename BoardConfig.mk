@@ -30,6 +30,10 @@ TARGET_KERNEL_CONFIG := lancelot_defconfig
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
+# Mtk hardware 
+BOARD_USES_MTK_HARDWARE := true
+BOARD_HAS_MTK_HARDWARE := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := lancelot,galahad,shiva
 
