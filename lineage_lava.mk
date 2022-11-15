@@ -34,7 +34,7 @@ $(call inherit-product, vendor/ANXCamera/config.mk)
 $(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
 
 # Shas
-$(call inherit-product, vendor/shas/common/shas.mk)
+$(call inherit-product, vendor/shas/shas.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
