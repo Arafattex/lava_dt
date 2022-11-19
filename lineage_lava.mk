@@ -30,8 +30,8 @@ $(call inherit-product, vendor/ANXCamera/config.mk)
 #Gapps
 # WITH_GMS=true
 
-# Mind the gapps 
-$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
+# MicroG
+$(call inherit-product, vendor/partner_gms/products/gms.mk)
 
 # Shas
 $(call inherit-product, vendor/shas/shas.mk)
