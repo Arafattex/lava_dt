@@ -25,7 +25,7 @@ $(call inherit-product, device/xiaomi/lava/device.mk)
 # $(call inherit-product, packages/apps/Viper4FX/config.mk)
 
 # Inherit AnxCam 
-$(call inherit-product, vendor/ANXCamera/config.mk)
+# $(call inherit-product, vendor/ANXCamera/config.mk)
 
 #Gapps
 # WITH_GMS=true
